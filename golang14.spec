@@ -18,6 +18,9 @@ golang 1.4
 %prep
 %setup -q -n go
 
+%build
+rm -f .hgignore .hgtags
+
 %install
 rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT/%{_bindir}
@@ -33,6 +36,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root,-)
-%{_bindir}/go{,doc,fmt}
+%{_bindir}/go
+%{_bindir}/godoc
+%{_bindir}/gofmt
 /usr/local/go
-/usr/local/go/*
