@@ -3,7 +3,7 @@
 
 Name: golang14
 Version: 1.4.2
-Release: 1%{?dist}
+Release: 2%{?dist}
 Summary: go 1.4
 
 License: BSD
@@ -11,6 +11,8 @@ URL: http://golang.org
 Source0: https://storage.googleapis.com/golang/go%{version}.linux-amd64.tar.gz
 
 Conflicts: golang
+
+AutoReqProv: no
 
 %description
 golang 1.4
