@@ -1,3 +1,4 @@
+%global debug_package %{nil}
 %global __strip /bin/true
 
 Name: golang14
