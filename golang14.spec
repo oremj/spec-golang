@@ -1,3 +1,5 @@
+%global __strip /bin/true
+
 Name: golang14
 Version: 1.4.2
 Release: 1%{?dist}
