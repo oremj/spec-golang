@@ -2,9 +2,9 @@
 %global __strip /bin/true
 
 Name: golang14
-Version: 1.4.2
+Version: 1.5
 Release: 2%{?dist}
-Summary: go 1.4
+Summary: go 1.5
 
 License: BSD
 URL: http://golang.org           
@@ -15,7 +15,7 @@ Conflicts: golang
 AutoReqProv: no
 
 %description
-golang 1.4
+golang 1.5
 
 
 %prep
