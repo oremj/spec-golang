@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 %global __strip /bin/true
 
-Name: golang14
+Name: golang15
 Version: 1.5
 Release: 2%{?dist}
 Summary: go 1.5
