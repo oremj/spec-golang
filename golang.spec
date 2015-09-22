@@ -2,9 +2,9 @@
 %global __strip /bin/true
 
 Name: golang15
-Version: 1.5
+Version: 1.5.1
 Release: 2%{?dist}
-Summary: go 1.5
+Summary: go 1.5.1
 
 License: BSD
 URL: http://golang.org           
@@ -15,7 +15,7 @@ Conflicts: golang
 AutoReqProv: no
 
 %description
-golang 1.5
+golang 1.5.1
 
 
 %prep
