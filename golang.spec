@@ -1,10 +1,10 @@
 %global debug_package %{nil}
 %global __strip /bin/true
 
-Name: golang15
-Version: 1.5.1
-Release: 2%{?dist}
-Summary: go 1.5.1
+Name: golang16
+Version: 1.6
+Release: 1%{?dist}
+Summary: go 1.6
 
 License: BSD
 URL: http://golang.org           
@@ -15,7 +15,7 @@ Conflicts: golang
 AutoReqProv: no
 
 %description
-golang 1.5.1
+golang 1.6
 
 
 %prep
