@@ -2,9 +2,9 @@
 %global __strip /bin/true
 
 Name: golang16
-Version: 1.6
+Version: 1.6.2
 Release: 1%{?dist}
-Summary: go 1.6
+Summary: go 1.6.2
 
 License: BSD
 URL: http://golang.org           
@@ -15,7 +15,7 @@ Conflicts: golang
 AutoReqProv: no
 
 %description
-golang 1.6
+golang 1.6.2
 
 
 %prep
